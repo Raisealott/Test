@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hibachi Tip Report Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <input type="number" id="totalCash" style="position: absolute; top: 50px; left: 150px; width: 150px;">
+        <input type="number" id="serviceCharge" style="position: absolute; top: 90px; left: 150px; width: 150px;">
+        <input type="text" id="name" style="position: absolute; top: 130px; left: 150px; width: 150px;">
+        <input type="number" id="cashSales" style="position: absolute; top: 170px; left: 150px; width: 150px;">
+        <input type="number" id="netSales" style="position: absolute; top: 210px; left: 150px; width: 150px;">
+        <input type="number" id="liquorSales" style="position: absolute; top: 250px; left: 150px; width: 150px;">
+
+        <input type="number" id="chargeTips" style="position: absolute; top: 130px; left: 450px; width: 150px;">
+        <input type="number" id="cashTips" style="position: absolute; top: 170px; left: 450px; width: 150px;">
+        <input type="number" id="netTips" style="position: absolute; top: 210px; left: 450px; width: 150px;">
+        <input type="number" id="liquorTips" style="position: absolute; top: 250px; left: 450px; width: 150px;">
+
+        <input type="number" id="subtotal1" style="position: absolute; top: 300px; left: 200px; width: 150px;">
+        <input type="number" id="chefTips" style="position: absolute; top: 340px; left: 200px; width: 150px;">
+        <input type="number" id="serverTips" style="position: absolute; top: 380px; left: 200px; width: 150px;">
+        <input type="number" id="netTips2" style="position: absolute; top: 420px; left: 200px; width: 150px;">
+        <input type="number" id="barTips" style="position: absolute; top: 460px; left: 200px; width: 150px;">
+        <input type="number" id="subtotal2" style="position: absolute; top: 500px; left: 200px; width: 150px;">
+        <input type="number" id="draTips" style="position: absolute; top: 540px; left: 200px; width: 150px;">
+        <input type="number" id="totalTipsReport" style="position: absolute; top: 580px; left: 200px; width: 150px;">
+        <input type="number" id="totalTipsPayout" style="position: absolute; top: 620px; left: 200px; width: 150px;">
+        <input type="number" id="cashDue" style="position: absolute; top: 660px; left: 200px; width: 150px;">
+        <input type="number" id="totalPayout" style="position: absolute; top: 700px; left: 200px; width: 150px;">
+
+        <button onclick="calculateTips()" style="position: absolute; top: 950px; left: 350px;">Calculate</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
